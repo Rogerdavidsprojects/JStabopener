@@ -1,0 +1,45 @@
+<!doctype html>
+<head>
+<title>JS bookmark</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1> Information</h1>
+		<div class="container">
+			<a href="#" class="cabecera c-activa" onclick="mostrarPestana(0);">First</a>
+			<div class="pestana p-activa">
+				<p>
+                    Add WHATEVER you want in each container. If you want
+                    to make the containers bigger, change the p width in CSS.
+                    Content will not overflow when you specifty width in these specific
+                    containers.
+				</p>
+			</div>
+			<a href="#" class="cabecera" onclick="mostrarPestana(1);">Second</a>
+			<div class="pestana">
+				<p>
+                 For example, when you set the paragraph width (p)
+                 to 300px ALL containers will be 300px.
+                </p>
+			</div>
+			<a href="#" class="cabecera" onclick="mostrarPestana(2);">Third</a>
+			<div class="pestana">
+				<p>
+			       What about height? The height can be changed in the
+                   class container. (.container: height: 300px)
+				</p>
+			</div>
+			<a href="#" class="cabecera" onclick="mostrarPestana(3);">Fourth</a>
+			<div class="pestana">
+				<p>
+                    Enjoy and feel free to customize this project.
+                     Add lists, pictures, animations, etc.
+				</p>
+			</div>
+		</div>
+    </main>
+    <script src="js/bookmark.js"></script>
+</body>
+</html>
