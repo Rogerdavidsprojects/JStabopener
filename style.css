@@ -1,0 +1,81 @@
+*{
+     font-family: sans-serif;
+     opacity: 5;
+}
+
+h1{
+    font-weight: lighter;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: -35px;
+}
+
+.container{
+	position: relative;
+	height: 300px;
+}
+
+.cabecera {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+    font-size: 1.4em;
+    transition: .6s ease;
+    background-color: #5fbdd4;
+    color: white;
+	border: 2px solid  white;
+    box-shadow: 0 0 em black;
+	position: relative;
+
+	border-top-left-radius: 20px;
+	border-top-right-radius: 2px;
+	transform: translateY(2px);
+	z-index: 2;
+    color:black;
+}
+
+.cabecera:hover{
+    background-color: #64B6AC;
+    color: white;
+}
+
+.pestana {
+	position: absolute;
+	border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 .6em black;
+	height: 100%;
+    background-color: ;
+	visibility: hidden;
+	opacity: 0;
+    color: #333;
+    font-size: 1.2em;
+	transition: visibility 1s, opacity 1s;
+    background-color: #F6F6F8;
+}
+
+.p-activa {
+	visibility: visible;
+	opacity: 1;
+}
+
+.c-activa { border-bottom-color: #BDD4E7;
+    background-color: #64B6AC;
+    color: white;
+}
+
+p{
+    text-align: left;
+    background-color: #F6F6F8;
+    line-height: 1.5;
+	padding: 10px;
+    width: 350px;
+}
